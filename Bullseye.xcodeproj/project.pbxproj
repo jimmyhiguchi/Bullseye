@@ -12,6 +12,9 @@
 		CE2B2BFE1F916AF300A1E784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2B2BFC1F916AF300A1E784 /* Main.storyboard */; };
 		CE2B2C001F916AF300A1E784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2B2BFF1F916AF300A1E784 /* Assets.xcassets */; };
 		CE2B2C031F916AF300A1E784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2B2C011F916AF300A1E784 /* LaunchScreen.storyboard */; };
+		CE3307F51F980AB900A2E446 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3307F41F980AB900A2E446 /* AboutViewController.swift */; };
+		CEFBB7671F994231006D4A74 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFBB7661F994231006D4A74 /* AboutMeViewController.swift */; };
+		CEFBB7691F995A1E006D4A74 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = CEFBB7681F995A1E006D4A74 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CE2B2BFF1F916AF300A1E784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2B2C021F916AF300A1E784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2B2C041F916AF300A1E784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3307F41F980AB900A2E446 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CEFBB7661F994231006D4A74 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		CEFBB7681F995A1E006D4A74 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		CE2B2BF71F916AF300A1E784 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				CEFBB7681F995A1E006D4A74 /* BullsEye.html */,
 				CE2B2BF81F916AF300A1E784 /* AppDelegate.swift */,
 				CE2B2BFA1F916AF300A1E784 /* ViewController.swift */,
+				CE3307F41F980AB900A2E446 /* AboutViewController.swift */,
 				CE2B2BFC1F916AF300A1E784 /* Main.storyboard */,
+				CEFBB7661F994231006D4A74 /* AboutMeViewController.swift */,
 				CE2B2BFF1F916AF300A1E784 /* Assets.xcassets */,
 				CE2B2C011F916AF300A1E784 /* LaunchScreen.storyboard */,
 				CE2B2C041F916AF300A1E784 /* Info.plist */,
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2B2C031F916AF300A1E784 /* LaunchScreen.storyboard in Resources */,
+				CEFBB7691F995A1E006D4A74 /* BullsEye.html in Resources */,
 				CE2B2C001F916AF300A1E784 /* Assets.xcassets in Resources */,
 				CE2B2BFE1F916AF300A1E784 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +148,8 @@
 			files = (
 				CE2B2BFB1F916AF300A1E784 /* ViewController.swift in Sources */,
 				CE2B2BF91F916AF300A1E784 /* AppDelegate.swift in Sources */,
+				CEFBB7671F994231006D4A74 /* AboutMeViewController.swift in Sources */,
+				CE3307F51F980AB900A2E446 /* AboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
